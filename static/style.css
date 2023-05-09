@@ -1,74 +1,94 @@
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Times New Roman', Times, serif;
-    gap: 40px;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  gap: 40px;
 }
 
-.header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: 0.2;
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 0.2;
 }
 
-.header h1{
-    color: darkorchid;
-    font-size: 3em;
+.header h1 {
+  color: darkorchid;
+  font-size: 3em;
 }
 
-.header h3{
-    font-size: 2em;
+.header h3 {
+  font-size: 2em;
 }
 
-.container{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    grid-auto-flow: row;
-    gap: 20px;
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-auto-flow: row;
+  gap: 20px;
 }
 
 .card {
-    width: 15em;
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: 0px 0px 20px lightblue;
-    padding: 1.2em;
+  width: 15em;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0px 0px 20px lightblue;
+  padding: 1.2em;
 }
 
-.card-image{
-    display: flex;
-    justify-content: center;
+.card-image {
+  display: flex;
+  justify-content: center;
 }
 
 .card-titulo {
-    font-weight: bold;
-    font-size: 1.4em;
-    display: flex;
-    justify-content: center;
+  font-weight: bold;
+  font-size: 1.4em;
+  display: flex;
+  justify-content: center;
 }
 
-.card-descripcion{
-    display: flex;
-    justify-content: center;
+.card-medidas {
+  display: flex;
+  justify-content: center;
 }
 
-.card-button{
-    padding-top: 1.2em;
+.card-button {
+  padding-top: 1.2em;
 }
 
-.card-button button{
-    border-color: darkorchid;
-    background-color: darkorchid;
-    color: #fff;
+.button-disable{
+    border-color: darkgray;
+    background-color: darkgray;
     padding: 5px 30px 5px 30px;
     border-radius: 20px;
-    transition: 0.2s;
 }
 
-.card-button button:hover{
-    background-color: #fff;
-    color: darkorchid;
+.button-producto {
+  border-color: darkorchid;
+  background-color: darkorchid;
+  color: #fff;
+  padding: 5px 30px 5px 30px;
+  border-radius: 20px;
+  transition: 0.2s;
 }
 
+.button-producto:hover {
+  background-color: #fff;
+  color: darkorchid;
+}
+
+.button-analisis {
+  border-color: darkorchid;
+  background-color: #fff;
+  color: darkorchid;
+  padding: 10px 30px 10px 30px;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+
+.button-analisis:hover {
+  background-color: darkorchid;
+  color: #fff;
+}
