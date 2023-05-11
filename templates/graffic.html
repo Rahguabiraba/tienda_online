@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graffic</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}" />
+</head>
+<body>
+    <div class="header">
+        <h1>Grafico de Productos Vendidos</h1>
+        <h3>Encuentre los productos más vendidos</h3>
+        <form method="POST" action="/lista">
+          <button type="submit" class="button-producto">LISTADO</button>
+        </form>
+      </div>
+      <div class="container">
+        <div class="grafico">
+            <img src="{{img}}" alt="Imagen del Plot">
+        </div>
+      </div>
+</body>
+</html>

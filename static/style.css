@@ -92,3 +92,22 @@ body {
   background-color: darkorchid;
   color: #fff;
 }
+
+.imagenes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-graficos{
+  width: 15em;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0px 0px 20px lightblue;
+  padding: 1.2em;
+  transition: 0.2s;
+}
+
+.card-graficos:hover{
+  background-color: darkorchid;
+  opacity: 40%;
+}
